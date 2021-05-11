@@ -1,10 +1,22 @@
-
-
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MaterialApp(
-    title: "Contador de pessoas",
-    home: Container(color: Colors.white)
-  ));
+      title: "Contador de pessoas",
+      home: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            "Pessoas: 0",
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          ),
+          Text(
+            "Pode entrar",
+            style: TextStyle(color: Colors.green,
+                fontStyle: FontStyle.italic,
+                fontSize: 30.0),
+          )
+        ],
+      )));
 }
