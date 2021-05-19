@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 void main() {
-  runApp(MaterialApp(title: "Contador de pessoas", home: Home()));
+  runApp(MaterialApp(title: "Contador de pessoas teste", home: Home()));
 }
 
 class Home extends StatefulWidget {
